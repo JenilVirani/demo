@@ -1,1 +1,1 @@
-worker: python RegForm.py
+web: gunicorn RegForm:app
