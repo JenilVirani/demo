@@ -45,4 +45,4 @@ def Register():
                "Your Hobby are : {}  <br>".format(h1)
 
 
-app.run(port"9009" threaded=True)
+app.run(port=9009, threaded=True,debug=True)
