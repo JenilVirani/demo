@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Registration</title>
+</head>
+<body>
+
+<form action="http://127.0.0.1:5000/login" method = "POST">
+
+    First Name <input type="text" name="fn"><br>
+
+    Last Name <input type="text" name="ln"><br>
+
+    Phone Number <input type="text" name="pn"><br>
+
+    Username <input type="email" name="email"><br>
+
+    Password<input type="password" name="pass"><br>
+
+
+    Gemder <input type="radio" name="gen" value="male"> Male
+    <input type="radio" name="gen" value="female"> Female
+    <br>
+
+
+
+
+    DOB <input type="date" name="dt" id="">
+    <br>
+
+    COUNTRY:
+    <select name="cou" id="">
+        <option  value="India">India</option>
+        <option  value="Canada">Canada</option>
+        <option  value="Usa">Usa</option>
+    </select>
+    <br>
+
+    Address:
+    <br>
+    <textarea name="address" id="" cols="30" rows="10"></textarea>
+    <br>
+    Hobbies <input type="checkbox" name="hobby" value="Cricket">Cricket
+            <input type="checkbox" name="hobby" value="Swimming">Swimming
+            <input type="checkbox" name="hobby" value="TT">TT
+
+    <input type="submit" value="Submit">
+
+
+
+
+
+</form>
+
+</body>
+</html>
